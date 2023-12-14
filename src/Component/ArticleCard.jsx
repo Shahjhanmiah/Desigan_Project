@@ -1,6 +1,10 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import logo from '../asserst/Group 7.png'
+import YourNavbar from './YourNavbar';
+import { CiCircleQuestion } from "react-icons/ci";
+
+
 
 const ArticleCard = () => {
   return (
@@ -36,7 +40,11 @@ const ArticleCard = () => {
           </Card>
         </Col>
         <Col className='md-6 justify-content-center'>
-        <h1>hi</h1>
+         <YourNavbar></YourNavbar>
+         <hr></hr>
+         <CiCircleQuestion></CiCircleQuestion>
+         <span>Your location will help us serve better and extend a personalised experience.</span>
+        
 
         </Col>
 

@@ -3,6 +3,7 @@ import NavBar from './Sharing/NavBar';
 import HomePageBanner from './Component/HomePageBanner';
 import Header from './Component/Header';
 import ArticleCard from './Component/ArticleCard';
+import YourNavbar from './Component/YourNavbar';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Header></Header>
       <hr></hr>
       <ArticleCard></ArticleCard>
+    
 
       
       
